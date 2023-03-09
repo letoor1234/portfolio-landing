@@ -19,7 +19,7 @@ const ResumeDialog = ({ open, onClose }: any) => {
           My Resume
         </h3>
       </DialogTitle>
-      <DialogContent>
+      <DialogContent className="flex items-center justify-center">
         <iframe
           id="my-resume-iframe"
           src="https://docs.google.com/document/d/1zwrmdSK-1paYKma4UrZ72FXQokWvvlsp2fkOiB-rsFo"
