@@ -55,13 +55,7 @@ const MailDialog = ({ open, onClose }: any) => {
         message={snackbarText}
       />
 
-      <Dialog
-        open={open}
-        onClose={onClose}
-        PaperProps={{
-          className: "bg-zinc-800",
-        }}
-      >
+      <Dialog open={open} onClose={onClose}>
         <DialogTitle>
           <h3 className="w-full text-center font-bold text-emerald-400">
             Send me an Email!

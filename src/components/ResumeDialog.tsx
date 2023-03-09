@@ -9,7 +9,7 @@ const ResumeDialog = ({ open, onClose }: any) => {
       open={open}
       onClose={onClose}
       PaperProps={{
-        className: "bg-zinc-800 h-screen",
+        className: "h-screen",
       }}
       maxWidth="md"
       fullWidth

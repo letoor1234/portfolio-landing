@@ -4,9 +4,6 @@ const LoaderPage = ({ open }: any) => {
   return (
     <Dialog
       open={open}
-      PaperProps={{
-        className: "bg-zinc-800",
-      }}
       fullScreen
     >
       <div className="w-full h-full flex items-center justify-center">
